@@ -1,57 +1,14 @@
-# DevVitals 🧠💻
+# Run and deploy your AI Studio app
 
-**Track your developer health before burnout hits.**
+This contains everything you need to run your app locally.
 
-A simple MVP built to help developers log their daily well-being: hydration, eye strain, sleep, and mental fatigue — all in a clean dashboard.
+## Run Locally
 
----
-
-## 🔍 Why I Built It
-
-As a full-stack dev, I hit a wall:  
-- Burning eyes 🔥  
-- Constant thirst 💧  
-- Brain fog 😵‍💫  
-- Still pushing code 😩  
-
-So I made a tool *just for us* — DevVitals — to track how we’re really doing while we code.
-
----
-
-## 🚀 Features in MVP
-
-- ✅ Daily check-ins for:
-  - Water intake
-  - Eye strain
-  - Sleep hours
-  - Mood & mental load
-- ✅ Markdown-style journal (mind dump)
-- ✅ Last 7-day dashboard trends
-- ✅ Developer-friendly dark UI
-
----
-
-## 🧑‍💻 Tech Stack
-
-- Frontend: React + Tailwind CSS
-- Local Storage Working
-
----
-
-## 📷 Demo Screenshots
-
-![Dashboard Preview](link-to-image)
-![Check-in Form](link-to-image)
-
-📹 Video Walkthrough: [Watch Demo on Loom](https://loom.com/your-demo-link)
-
----
-
-## ⚙️ How to Run Locally
+**Prerequisites:**  Node.js
 
 
-# Frontend
-cd frontend
-npm install
-ng serve
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

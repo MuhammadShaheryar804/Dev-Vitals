@@ -1,0 +1,6 @@
+
+{
+  "name": "DevVitals",
+  "description": "A developer-focused health and productivity tracker to log daily vitals, journal thoughts, view trends, and get break reminders.",
+  "requestFramePermissions": ["notifications"]
+}
