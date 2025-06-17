@@ -33,9 +33,8 @@ So I made a tool *just for us* — DevVitals — to track how we’re really doi
 
 ## 🧑‍💻 Tech Stack
 
-- Frontend: Angular 18 + Tailwind CSS
-- Backend: ASP.NET Core 8 Web API
-- DB: SQL Server / PostgreSQL
+- Frontend: React + Tailwind CSS
+- Local Storage Working
 
 ---
 
@@ -50,17 +49,9 @@ So I made a tool *just for us* — DevVitals — to track how we’re really doi
 
 ## ⚙️ How to Run Locally
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/devvitals.git
-cd devvitals
 
 # Frontend
 cd frontend
 npm install
 ng serve
 
-# Backend (if applicable)
-cd ../backend
-dotnet build
-dotnet run
