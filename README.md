@@ -40,12 +40,6 @@ So I made a tool *just for us* — DevVitals — to track how we’re really doi
 ---
 
 ## ⚙️ How to Run Locally
-
-
-# Frontend
 cd frontend
----- 
 npm install
---
 ng serve
---
