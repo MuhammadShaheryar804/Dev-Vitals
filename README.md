@@ -44,5 +44,8 @@ So I made a tool *just for us* — DevVitals — to track how we’re really doi
 
 # Frontend
 cd frontend
+---- 
 npm install
+--
 ng serve
+--
